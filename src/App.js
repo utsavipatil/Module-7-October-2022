@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Conditional from './class-6-Condition-listRendering/Conditional';
+import FormHanel from './class-5-Form-Handling/FormHandel';
+import List from './class-6-Condition-listRendering/List';
+import UseEffect from './class-7-promices-useEffect/UseEffect';
+import Promise from './class-7-promices-useEffect/Promise';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <FormHanel /> */}
+      {/* <Conditional/> */}
+      {/* <List/> */}
+      {/* <UseEffect/> */}
+      <Promise/>
     </div>
   );
 }
